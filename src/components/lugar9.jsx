@@ -1,12 +1,12 @@
 import React from 'react'
-import lugar9a from "../components/images/lugar9.jpeg"
+import lugar9s from "../images/lugar9.jpeg"
 
-const lugar9 = () => {
+const Lugar9 = () => {
   return (
     <div>
-        <img src={lugar9a} alt="lugares para ir" />
+        <img src={lugar9s} alt="lugares para ir" />
     </div>
   )
 }
 
-export default lugar9
+export default Lugar9
