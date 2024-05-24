@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
-import Navigation from './components/navigation';
+import Navigation from './components/Navigation';
 import Lugar1 from './components/Lugar1';
 import Lugar2 from './components/Lugar2';
 import Lugar3 from './components/Lugar3';
