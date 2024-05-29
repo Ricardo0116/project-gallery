@@ -1,10 +1,11 @@
 import React from "react"
+import Image from 'react-bootstrap/Image';
 import lugar1s from "../images/lugar1.jpeg"
 
 const Lugar1 = () => {
     return (
         <div>
-            <img src={lugar1s} alt="lugares para ir" />
+            <Image src={lugar1s} alt="gsdgsd" height={850} width={1300}/>
         </div>
     )
 }
