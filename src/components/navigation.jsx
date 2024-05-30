@@ -1,6 +1,5 @@
 import React from 'react'
-import Carousel from 'react-bootstrap/Carousel';
-
+import { Link } from 'react-router-dom';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,86 +18,80 @@ import Lugar10 from './Lugar10';
 
 const Navigation = () => {
   return (
-    <div className='container-xl'>
-      <h1 style={{textAlign: "center"}}>IMAGENES DE PAISAJE</h1>
+    <div className='container-center mt-4 father'>
+      <Link to="/lugar1" className="links">
+          <figure className="image-size">
+          <Lugar1 />
+          <figcaption>lugar1</figcaption>
+        </figure>
+      </Link>
+
+        <Link to="/lugar2" className="links">
+          <figure className="image-size">
+          <Lugar2 />
+          <figcaption>lugar2</figcaption>
+        </figure>
+      </Link>
 
 
-       <Carousel slide={false}>
+      <Link to="/lugar3" className="links">
+        <figure className="image-size">
+          <Lugar3 />
+          <figcaption>lugar3</figcaption>
+        </figure>
+      </Link>
 
-      <Carousel.Item>
-        <Lugar1  text="First slide"/>
-        <Carousel.Caption>
+      <Link to="/lugar4" className="links">
+        <figure className="image-size">
+          <Lugar4 />
+          <figcaption>lugar4</figcaption>
+        </figure>
+      </Link>
 
-        </Carousel.Caption>
-      </Carousel.Item>
+     <Link to="/lugar5" className="links">
+        <figure className="image-size">
+          <Lugar5 />
+          <figcaption>lugar5</figcaption>
+        </figure>
+      </Link>
 
-      <Carousel.Item>
-        <Lugar2 text="Second slide" />
-        <Carousel.Caption>
+      <Link to="/lugar6" className="links">
+        <figure className="image-size">
+          <Lugar6 />
+          <figcaption>lugar6</figcaption>
+        </figure>
+      </Link>
 
-        </Carousel.Caption>
-      </Carousel.Item>
+      <Link to="/lugar7" className="links">
+        <figure className="image-size">
+          <Lugar7 />
+          <figcaption>lugar7</figcaption>
+        </figure>
+      </Link>
 
-      <Carousel.Item>
-        <Lugar3 text="Third slide" />
-        <Carousel.Caption>
+      <Link to="/lugar8" className="links">
+        <figure className="image-size">
+          <Lugar8 />
+          <figcaption>lugar8</figcaption>
+        </figure>
+      </Link>
 
-        </Carousel.Caption>
-      </Carousel.Item>
+      <Link to="/lugar9" className="links">
+        <figure className="image-size">
+          <Lugar9 />
+          <figcaption>lugar9</figcaption>
+        </figure>
+      </Link>
 
-      <Carousel.Item>
-        <Lugar4 text="Fourth slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Lugar5 text="Fifth slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Lugar6 text="Sixth slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Lugar7 text="Seventh slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Lugar8 text="Eighth slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Lugar9 text="Ninth slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
-
-      <Carousel.Item>
-        <Lugar10 text="Tenth slide" />
-        <Carousel.Caption>
-
-        </Carousel.Caption>
-      </Carousel.Item>
+      <Link to="/lugar10" className="links">
+        <figure className="image-size">
+          <Lugar10 />
+          <figcaption>lugar10</figcaption>
+        </figure>
+      </Link>
 
 
-
-
-    </Carousel>
+     
     </div>
   )
 }

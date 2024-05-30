@@ -16,17 +16,20 @@ function App() {
   return (
 
     <Router>
+      <div className='container'>
+        <h1 id="title" className='text-center my-3'>LUGARES PARA IR</h1>
+      </div>
       <Routes>
-        <Route path="/lugar1" Component={Lugar1} />
-        <Route path="/lugar2" Component={Lugar2} />
-        <Route path="/lugar3" Component={Lugar3} />
-        <Route path="/lugar4" Component={Lugar4} />
-        <Route path="/lugar5" Component={Lugar5} />
-        <Route path="/lugar6" Component={Lugar6} />
-        <Route path="/lugar7" Component={Lugar7} />
-        <Route path="/lugar8" Component={Lugar8} />
-        <Route path="/lugar9" Component={Lugar9} />
-        <Route path="/lugar10" Component={Lugar10} />
+        <Route path="/lugar1" Component={Lugar1} className="image-size" />
+        <Route path="/lugar2" Component={Lugar2} className="image-size" />
+        <Route path="/lugar3" Component={Lugar3} className="image-size" />
+        <Route path="/lugar4" Component={Lugar4} className="image-size" />
+        <Route path="/lugar5" Component={Lugar5} className="image-size" />
+        <Route path="/lugar6" Component={Lugar6} className="image-size" />
+        <Route path="/lugar7" Component={Lugar7} className="image-size" />
+        <Route path="/lugar8" Component={Lugar8} className="image-size" />
+        <Route path="/lugar9" Component={Lugar9} className="image-size" />
+        <Route path="/lugar10" Component={Lugar10} className="image-size" />
       </Routes>
       <Navigation />
       
