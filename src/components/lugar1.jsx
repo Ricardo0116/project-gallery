@@ -5,7 +5,7 @@ import lugar1s from "../images/lugar1.jpeg"
 const Lugar1 = () => {
     return (
         <div>
-            <Image src={lugar1s} alt="gsdgsd" height={850} width={1300}/>
+            <Image src={lugar1s} alt="Lugares para ir" height={850} width={1300}/>
         </div>
     )
 }

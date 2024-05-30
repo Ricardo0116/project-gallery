@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -48,49 +47,49 @@ const Navigation = () => {
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar4 text="Third slide" />
+        <Lugar4 text="Fourth slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar5 text="Third slide" />
+        <Lugar5 text="Fifth slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar6 text="Third slide" />
+        <Lugar6 text="Sixth slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar7 text="Third slide" />
+        <Lugar7 text="Seventh slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar8 text="Third slide" />
+        <Lugar8 text="Eighth slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar9 text="Third slide" />
+        <Lugar9 text="Ninth slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Lugar10 text="Third slide" />
+        <Lugar10 text="Tenth slide" />
         <Carousel.Caption>
 
         </Carousel.Caption>
