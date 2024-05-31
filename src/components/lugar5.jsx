@@ -1,5 +1,5 @@
 import React from 'react'
-import lugar5s from "../images/lugar5.jpeg"
+import lugar5s from "../images/lugar5.jpg"
 
 
 const Lugar5 = () => {
